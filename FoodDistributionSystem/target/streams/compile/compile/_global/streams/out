@@ -1,0 +1,53 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\models\Distribution.scala:50:115: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m  override def toString: String = s"$name - Capacity: ${currentCapacityUsed}/${capacity}kg (${capacityUtilization.formatted("%.1f")}%)"[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:32:66: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Distribution Efficiency: ${stats.distributionEfficiency.formatted("%.1f")}%[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:34:65: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Average per Event: ${stats.averageDistributionPerEvent.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:38:61: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Food Waste: ${(100 - stats.distributionEfficiency).formatted("%.1f")}%[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:74:42: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        |  - Total Weight: ${totalWeight.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:108:113: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Coverage Rate: ${if (beneficiaries.nonEmpty) (servedBeneficiaries.toDouble / beneficiaries.size * 100).formatted("%.1f") else "0.0"}%[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:111:53: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Average Household Size: ${avgHouseholdSize.formatted("%.1f")} people[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:148:63: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        |• Capacity Utilization: ${center.capacityUtilization.formatted("%.1f")}% (${center.currentCapacityUsed}/${center.capacity} kg)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:174:43: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Total Capacity Used: ${totalUsed.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:175:90: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Overall Utilization: ${if (totalCapacity > 0) (totalUsed / totalCapacity * 100).formatted("%.1f") else "0.0"}%[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:214:53: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Total Food Distributed: ${totalDistributed.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:216:45: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m      |• Average Event Size: ${avgEventSize.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\User\Downloads\FoodDistributionSystem\FoodDistributionSystem\src\main\scala\utils\ReportGenerator.scala:226:52: method formatted in class StringFormat is deprecated (since 2.12.16): Use `formatString.format(value)` instead of `value.formatted(formatString)`,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor use the `f""` string interpolator. In Java 15 and later, `formatted` resolves to the new method in String which has reversed parameters.[0m
+[0m[[0m[33mwarn[0m] [0m[0m        |  - Distributed: ${event.totalDistributed.formatted("%.1f")} kg[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m13 warnings found[0m

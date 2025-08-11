@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="fooddistributionsystem-build"
+		revision="0.1.0-SNAPSHOT"
+		extra-scalaVersion="2.12"
+		extra-sbtVersion="1.0"
+		conf="plugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, scala-doc-tool"
+		date="20250805162515"/>
+	<dependencies>
+		<module organisation="org.scalameta" name="semanticdb-scalac_2.12.20">
+			<revision name="4.13.8" status="release" pubdate="20250627075950" resolver="public" artresolver="public" homepage="https://github.com/scalameta/scalameta" extra-info.versionScheme="semver-spec" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD" url="https://github.com/scalameta/scalameta/blob/main/LICENSE.md"/>
+				<metadata-artifact status="successful" details="" size="3072" time="824" location="C:\Users\User\.ivy2\cache\org.scalameta\semanticdb-scalac_2.12.20\ivy-4.13.8.xml" searched="true" original-local-location="C:\Users\User\.ivy2\cache\org.scalameta\semanticdb-scalac_2.12.20\ivy-4.13.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.12.20/4.13.8/semanticdb-scalac_2.12.20-4.13.8.pom"/>
+				<caller organisation="default" name="fooddistributionsystem-build" conf="plugin" rev="4.13.8" rev-constraint-default="4.13.8" rev-constraint-dynamic="4.13.8" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="semanticdb-scalac_2.12.20" type="jar" ext="jar" status="successful" details="" size="20122046" time="20321" location="C:\Users\User\.ivy2\cache\org.scalameta\semanticdb-scalac_2.12.20\jars\semanticdb-scalac_2.12.20-4.13.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.12.20/4.13.8/semanticdb-scalac_2.12.20-4.13.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.20" status="release" pubdate="20240902155620" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.20/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2694" time="0" location="C:\Users\User\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.20.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.pom"/>
+				<caller organisation="org.scalameta" name="semanticdb-scalac_2.12.20" conf="default, compile, runtime, master" rev="2.12.20" rev-constraint-default="2.12.20" rev-constraint-dynamic="2.12.20" callerrev="4.13.8"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5436770" time="0" location="C:\Users\User\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.20.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.20/scala-library-2.12.20.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
